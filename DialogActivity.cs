@@ -6,6 +6,14 @@ namespace Android.Dialog
 {
     public class DialogActivity : ListActivity
     {
+
+
+        protected override void OnResume()
+        {
+            base.OnResume();
+            ReloadData(); 
+        }
+
         public RootElement Root
         {
             get { return _dialogAdapter == null ? null : _dialogAdapter.Root; }
