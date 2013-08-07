@@ -35,7 +35,6 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <AndroidLinkMode>SdkOnly</AndroidLinkMode>
     <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
   </PropertyGroup>
   <ItemGroup>
@@ -77,9 +76,14 @@
     <Compile Include="StringElement.cs" />
     <Compile Include="ViewElement.cs" />
     <Compile Include="WebContentElement.cs" />
+    <Compile Include="DrawingActivity.cs" />
+    <Compile Include="DrawingElement.cs" />
+    <Compile Include="DrawingView.cs" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\Layout\dialog_boolfieldleft.xml" />
+    <AndroidResource Include="Resources\Layout\drawing_element.axml" />
+    <AndroidResource Include="Resources\Layout\drawing_field.axml" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\Layout\dialog_boolfieldright.xml" />
