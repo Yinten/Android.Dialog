@@ -12,7 +12,6 @@
     <RootNamespace>Android.Dialog</RootNamespace>
     <AssemblyName>Android.Dialog</AssemblyName>
     <FileAlignment>512</FileAlignment>
-    <TargetFrameworkVersion>v1.6</TargetFrameworkVersion>
     <AndroidSupportedAbis>armeabi%3barmeabi-v7a%3bx86</AndroidSupportedAbis>
     <AndroidResgenFile>Resources\Resource.Designer.cs</AndroidResgenFile>
     <AndroidStoreUncompressedFileExtensions />
@@ -79,6 +78,7 @@
     <Compile Include="DrawingActivity.cs" />
     <Compile Include="DrawingElement.cs" />
     <Compile Include="DrawingView.cs" />
+    <Compile Include="Utility\ImageUtility.cs" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\Layout\dialog_boolfieldleft.xml" />
